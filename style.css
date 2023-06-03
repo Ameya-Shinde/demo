@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    list-style: none;
+}
+
+body{
+    background-image: url(ref/background.png);
+    background-size: cover;
+    padding: 9%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    width: 100%;
+    font-size: 14px;
+}
+
+.headerContents{
+    display: flex;
+    height: 55vh;
+    justify-content: space-between;
+}
+
+.headerContent h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.headerContent span{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #29B475;
+}
+
+.headerContent h1{
+    font-weight: 2000;
+    font-size: 2.6rem;
+}
+
+.headerContent{
+    width: 40%;
+}
+
+.logoContainer{
+    width: 45%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.logoContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+.headerImg{
+    margin-top: 20px;
+    
+}
+
+.headerImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.headerMsg{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.headerMsg h1{
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.headerMsg p{
+    font-size: 2rem;
+}
+
+.contentBox{
+    position: relative;
+    padding: 30px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    text-align: center;
+    background:#17252C;
+    margin-bottom: 70px;
+}
+
+.boxHeading{
+    color: #29B475;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin-bottom: 120px;
+}
+
+.cardContainer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 22px;
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A313D;
+    border-radius: 22px;
+    align-items: center;
+    padding: 2%;
+}
+
+.cardTitle1, .cardTitle2, .cardTitle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -75%;
+}
+
+.cardTitle1{
+    background-color: #22adcf;
+}
+
+.cardTitle2{
+    background-color: #f69401;
+}
+
+.cardTitle3{
+    background-color: #29B475;
+}
+
+.cardImgContainer img{
+    width: 80px;
+}
+
+.cardImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card span{
+    font-weight: bolder;
+}
+
+.card hr{
+    margin-left: 25%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 50%;
+}
+
+.card h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.card1{
+    color: #22adcf;
+}
+
+.card2{
+    color: #f69401;
+}
+
+.card3{
+    color: #29B475;
+}
+
+.card ul li{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.download{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.download .headline h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.download .imgContainer{
+    width: 140px;
+    height: 100px;
+    margin-right: -200px;
+    margin-top: -90px;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    object-fit: fill;
+}
+
+.downloadButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.download button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #29B475;
+    background: white;
+    padding: 15px 25px;
+    border: 2px solid #29B475;
+    border-radius: 22px;
+}
+
+.download button:hover{
+    cursor: pointer;
+}
+
+.endLine{
+    margin: auto;
+    width: 77%;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+
+.login{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 22px;
+}
+
+.login button:hover{
+    cursor: pointer;
+}
+
+.login button{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1% 10%;
+    border-radius: 22px;
+    background-color: #29B475;
+    border: none;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: -150px;
+    height: 35vh;
+}
+
+.footNotes{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footNotes h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.footNotes p{
+    color: #29B475;
+    font-size: 3rem;
+    font-weight: 900;
+}
