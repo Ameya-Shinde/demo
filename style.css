@@ -81,6 +81,7 @@ body{
 }
 
 .contentBox{
+    min-width: min-content;
     position: relative;
     padding: 30px;
     padding-bottom: 40px;
