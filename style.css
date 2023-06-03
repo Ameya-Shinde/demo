@@ -57,7 +57,7 @@ body{
 
 .headerImg{
     margin-top: 20px;
-    
+    height: max-content;
 }
 
 .headerImg img{
@@ -199,7 +199,7 @@ body{
 .download .imgContainer{
     width: 140px;
     height: 100px;
-    margin-right: -200px;
+    margin-right: -160px;
     margin-top: -90px;
 }
 
@@ -241,7 +241,7 @@ body{
 
 .login{
     width: 100%;
-    height: 35vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +254,7 @@ body{
 }
 
 .login button{
-    color: whitesmoke;
+    color: white;
     font-size: 2.5rem;
     font-weight: 600;
     padding: 1% 10%;
