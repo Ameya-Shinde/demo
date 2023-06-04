@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,8 @@
     list-style: none;
 }
 
-body{
+body {
+    min-width: min-content;
     background-image: url(ref/background.png);
     background-size: cover;
     padding: 9%;
@@ -16,100 +17,95 @@ body{
     font-size: 14px;
 }
 
-.headerContents{
+.headerContents {
     display: flex;
     height: max-content;
     justify-content: space-between;
 }
 
-.headerContent h3{
+.headerContent h3 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 4px;
 }
 
-.headerContent span{
+.headerContent span {
     font-weight: bolder;
     font-size: 2.5rem;
     color: #29B475;
 }
 
-.headerContent h1{
+.headerContent h1 {
     font-weight: 2000;
     font-size: 2.6rem;
 }
 
-.headerContent{
+.headerContent {
     width: 40%;
 }
 
-.logoContainer{
+.logoContainer {
     width: 45%;
     height: 50px;
     margin-bottom: 30px;
 }
 
-.logoContainer img{
+.logoContainer img {
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit: fill;
 }
 
-.headerImg{
+.headerImg {
     margin-top: 20px;
     height: max-content;
 }
 
-.headerImg img{
+.headerImg img {
     width: 100%;
     height: 100%;
 }
 
-.headerMsg{
+.headerMsg {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 60px;
 }
 
-.headerMsg h1{
+.headerMsg h1 {
     font-size: 2.1rem;
     margin-bottom: 10px;
 }
 
-.headerMsg p{
+.headerMsg p {
     font-size: 2rem;
 }
 
-.contentContainer{
-    width: 100%;
-    height: 100%;
-}
-
-.contentBox{
+.contentBox {
+    min-width: fit-content;
     padding: 30px;
     padding-bottom: 40px;
     border-radius: 22px;
     text-align: center;
-    background:#17252C;
+    background: #17252C;
     margin-bottom: 70px;
-    object-fit: contain;
 }
 
-.boxHeading{
+.boxHeading {
     color: #29B475;
     font-size: 4.5rem;
     font-weight: bolder;
     margin-bottom: 120px;
 }
 
-.cardContainer{
+.cardContainer {
     margin-top: 70px;
     display: flex;
     justify-content: space-around;
     border-radius: 22px;
 }
 
-.card{
+.card {
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -119,7 +115,9 @@ body{
     padding: 2%;
 }
 
-.cardTitle1, .cardTitle2, .cardTitle3{
+.cardTitle1,
+.cardTitle2,
+.cardTitle3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,65 +127,65 @@ body{
     margin-top: -75%;
 }
 
-.cardTitle1{
+.cardTitle1 {
     background-color: #22adcf;
 }
 
-.cardTitle2{
+.cardTitle2 {
     background-color: #f69401;
 }
 
-.cardTitle3{
+.cardTitle3 {
     background-color: #29B475;
 }
 
-.cardImgContainer img{
+.cardImgContainer img {
     width: 80px;
 }
 
-.cardImgContainer{
+.cardImgContainer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.card span{
+.card span {
     font-weight: bolder;
 }
 
-.card hr{
+.card hr {
     margin-left: 25%;
     margin-top: 7%;
     margin-bottom: 7%;
     width: 50%;
 }
 
-.card h1{
+.card h1 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
 
-.card1{
+.card1 {
     color: #22adcf;
 }
 
-.card2{
+.card2 {
     color: #f69401;
 }
 
-.card3{
+.card3 {
     color: #29B475;
 }
 
-.card ul li{
+.card ul li {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: whitesmoke;
     padding: 15px;
 }
 
-.download{
+.download {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -197,25 +195,25 @@ body{
     align-items: center;
 }
 
-.download .headline h3{
+.download .headline h3 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 50px;
 }
 
-.download .imgContainer{
+.download .imgContainer {
     width: 140px;
     height: 100px;
     margin-top: -90px;
 }
 
-.imgContainer img{
+.imgContainer img {
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
 
-.downloadButton{
+.downloadButton {
     max-width: fit-content;
     display: flex;
     justify-content: center;
@@ -225,8 +223,8 @@ body{
     margin-left: 130px;
 }
 
-.download button{
-    max-width: fit-content;
+.download button {
+    min-width: max-content;
     font-size: 1.5rem;
     font-weight: 600;
     color: #29B475;
@@ -236,18 +234,18 @@ body{
     border-radius: 22px;
 }
 
-.download button:hover{
+.download button:hover {
     cursor: pointer;
 }
 
-.endLine{
+.endLine {
     margin: auto;
     width: 77%;
     font-size: 1.6rem;
     margin-bottom: 50px;
 }
 
-.login{
+.login {
     width: 100%;
     height: max-content;
     display: flex;
@@ -259,11 +257,11 @@ body{
     padding: 50px;
 }
 
-.login button:hover{
+.login button:hover {
     cursor: pointer;
 }
 
-.login button{
+.login button {
     color: white;
     font-size: 2.5rem;
     font-weight: 600;
@@ -273,14 +271,14 @@ body{
     border: none;
 }
 
-footer{
+footer {
     text-align: center;
     margin-bottom: -150px;
     height: max-content;
     margin-bottom: 30px;
 }
 
-.footNotes{
+.footNotes {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -288,12 +286,12 @@ footer{
     align-items: center;
 }
 
-.footNotes h1{
+.footNotes h1 {
     font-size: 3rem;
     margin-bottom: 15px;
 }
 
-.footNotes p{
+.footNotes p {
     color: #29B475;
     font-size: 3rem;
     font-weight: 900;
